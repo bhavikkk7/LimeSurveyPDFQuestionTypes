@@ -1,0 +1,19 @@
+<table class="table table-bordered" style="border: 1px solid rgb(0, 0, 0);">
+    <thead>
+        <tr>
+            <th style="width:15%;"> </th>
+            <th> mother </th>
+            <th> father </th>
+        </tr>
+    </thead>
+    <tbody>
+        {if(Q0053_SQ001_AO001=="1" or Q0053_SQ001_AO002=="1" , "<tr><td>receive any medical care</td><td>{if(Q0053_SQ001_AO001.NAOK == '0', '-', '<checkbox-checked>')}</td><td>{if(Q0053_SQ001_AO002.NAOK == '0', '-', '<checkbox-checked>')}</td></tr>")}
+        {if(Q0053_SQ002_AO001=="1" or Q0053_SQ002_AO002=="1" , "<tr><td>acupuncture</td><td>{if(Q0053_SQ002_AO001.NAOK == '0', '-', '<checkbox-checked>')}</td><td>{if(Q0053_SQ002_AO002.NAOK == '0', '-', '<checkbox-checked>')}</td></tr>")}
+        {if(Q0053_SQ003_AO001=="1" or Q0053_SQ003_AO002=="1" , "<tr><td>chiropractic	</td><td>{if(Q0053_SQ003_AO001.NAOK == '0', '-', '<checkbox-checked>')}</td><td>{if(Q0053_SQ003_AO002.NAOK == '0', '-', '<checkbox-checked>')}</td></tr>")}
+        {if(Q0053_SQ004_AO001=="1" or Q0053_SQ004_AO002=="1" , "<tr><td>osteopathy	</td><td>{if(Q0053_SQ004_AO001.NAOK == '0', '-', '<checkbox-checked>')}</td><td>{if(Q0053_SQ004_AO002.NAOK == '0', '-', '<checkbox-checked>')}</td></tr>")}
+        {if(Q0053_SQ005_AO001=="1" or Q0053_SQ005_AO002=="1" , "<tr><td>energy medicine (e.g. reiki)</td><td>{if(Q0053_SQ005_AO001.NAOK == '0', '-', '<checkbox-checked>')}</td><td>{if(Q0053_SQ005_AO002.NAOK == '0', '-', '<checkbox-checked>')}</td></tr>")}
+        {if(Q0053_SQ006_AO001=="1" or Q0053_SQ006_AO002=="1" , "<tr><td>practice stress reduction</td><td>{if(Q0053_SQ006_AO001.NAOK == '0', '-', '<checkbox-checked>')}</td><td>{if(Q0053_SQ006_AO002.NAOK == '0', '-', '<checkbox-checked>')}</td></tr>")}
+        {if(Q0053_SQ007_AO001=="1" or Q0053_SQ007_AO002=="1" , "<tr><td>therapy or counseling</td><td>{if(Q0053_SQ007_AO001.NAOK == '0', '-', '<checkbox-checked>')}</td><td>{if(Q0053_SQ007_AO002.NAOK == '0', '-', '<checkbox-checked>')}</td></tr>")}
+        {if(Q0053_SQ008_AO001=="1" or Q0053_SQ008_AO002=="1" , "<tr><td>nutrition consult(s)</td><td>{if(Q0053_SQ008_AO001.NAOK == '0', '-', '<checkbox-checked>')}</td><td>{if(Q0053_SQ008_AO002.NAOK == '0', '-', '<checkbox-checked>')}</td></tr>")}
+    </tbody>
+</table>
