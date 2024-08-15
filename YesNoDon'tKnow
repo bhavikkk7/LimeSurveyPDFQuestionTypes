@@ -1,0 +1,20 @@
+table class="table table-bordered" style="border: 1px solid rgb(0, 0, 0);">
+    <thead>
+        <tr>
+            <th style="width:40%;"> </th>
+            <th>yes</th>
+            <th>no</th>
+            <th>don't know</th>
+        </tr>
+    </thead>
+    <tbody>
+        {if(Q1072_SQ999_AO001=="3", "<tr><td colspan='4'>Participant selected 'don't know' for all items in this question.</td></tr>")}
+        <tr><td>obstetrician</td><td>{if(Q1072_SQ001_AO001.NAOK == '1','<checkbox-checked>','-')}</td><td>{if(Q1072_SQ001_AO001.NAOK == '2','<checkbox>','-')}</td><td>{if(Q1072_SQ001_AO001.NAOK == '3', '?','-')}</td></tr>
+        <tr><td>perinatologist</td><td>{if(Q1072_SQ002_AO001.NAOK == '1','<checkbox-checked>','-')}</td><td>{if(Q1072_SQ002_AO001.NAOK == '2','<checkbox>','-')}</td><td>{if(Q1072_SQ002_AO001.NAOK == '3', '?','-')}</td></tr>
+        <tr><td>family practitioner</td><td>{if(Q1072_SQ003_AO001.NAOK == '1','<checkbox-checked>','-')}</td><td>{if(Q1072_SQ003_AO001.NAOK == '2','<checkbox>','-')}</td><td>{if(Q1072_SQ003_AO001.NAOK == '3', '?','-')}</td></tr>
+        <tr><td>nurse practitioner</td><td>{if(Q1072_SQ004_AO001.NAOK == '1','<checkbox-checked>','-')}</td><td>{if(Q1072_SQ004_AO001.NAOK == '2','<checkbox>','-')}</td><td>{if(Q1072_SQ004_AO001.NAOK == '3', '?','-')}</td></tr>
+        <tr><td>nurse midwife</td><td>{if(Q1072_SQ005_AO001.NAOK == '1','<checkbox-checked>','-')}</td><td>{if(Q1072_SQ005_AO001.NAOK == '2','<checkbox>','-')}</td><td>{if(Q1072_SQ005_AO001.NAOK == '3', '?','-')}</td></tr>
+        <tr><td>independent midwife</td><td>{if(Q1072_SQ006_AO001.NAOK == '1','<checkbox-checked>','-')}</td><td>{if(Q1072_SQ006_AO001.NAOK == '2','<checkbox>','-')}</td><td>{if(Q1072_SQ006_AO001.NAOK == '3', '?','-')}</td></tr>
+        <tr><td>other</td><td>{if(Q1072_SQ007_AO001.NAOK == '1','<checkbox-checked>','-')}</td><td>{if(Q1072_SQ007_AO001.NAOK == '2','<checkbox>','-')}</td><td>{if(Q1072_SQ007_AO001.NAOK == '3', '?','-')}</td></tr>
+    </tbody>
+</table>
