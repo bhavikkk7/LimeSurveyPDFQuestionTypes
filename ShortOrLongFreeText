@@ -1,0 +1,14 @@
+<table class='table table-bordered' style='border: 1px solid rgb(0, 0, 0);'>
+    <thead>
+        <tr>
+            <th style='width:40%;'> </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Other specialized assessment or evaluation</td>
+            {if(strlen(Q6020.shown) > 0, '<td>{Q6020.shown}</td>', '<td> No Comment</td>')}
+        </tr>
+    </tbody>
+</table>
