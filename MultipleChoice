@@ -1,0 +1,28 @@
+<table class="table table-bordered" style="border: 1px solid rgb(0, 0, 0);">
+    <thead>
+        <tr>
+            <th style="width:40%;"></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Medications and Over-the-Counter Products</td>
+            <td>
+                <ul>
+                    {if(Q6021x1_SQ001=="Y", "<li>{Q6021x1_SQ001.question}</li>")}
+                    {if(Q6021x1_SQ002=="Y", "<li>{Q6021x1_SQ002.question}</li>")}
+                    {if(Q6021x1_SQ003=="Y", "<li>{Q6021x1_SQ003.question}</li>")}
+                    {if(Q6021x1_SQ004=="Y", "<li>{Q6021x1_SQ004.question}</li>")}
+                    {if(Q6021x1_SQ005=="Y", "<li>{Q6021x1_SQ005.question}</li>")}
+                    {if(Q6021x1_SQ006=="Y", "<li>{Q6021x1_SQ006.question}</li>")}
+                    {if(Q6021x1_SQ007=="Y", "<li>{Q6021x1_SQ007.question}</li>")}
+                    {if(Q6021x1_SQ008=="Y", "<li>{Q6021x1_SQ008.question}</li>")}
+                    {if(Q6021x1_SQ009=="Y", "<li>{Q6021x1_SQ009.question}</li>")}
+                    {if(Q6021x1_SQ010=="Y", "<li>{Q6021x1_SQ010.question}</li>")}
+                    {if(Q6021x1_SQ011=="Y", "<li>{Q6021x1_SQ011.question}</li>")}
+                    {if(Q6021x1_SQ012=="Y", "<li>{Q6021x1_SQ012.question}</li>")}
+                </ul>
+            </td>
+        </tr>
+    </tbody>
